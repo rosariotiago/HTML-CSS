@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Personalizados</title>
+    <style>
+        /*
+
+        # = id
+        . = class
+        : = psedeuclass
+        :: = pseudeu-elementer
+        > = childer
+        
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a{
+           text-decoration: none; 
+        }
+
+        a:hover{
+            color: firebrick;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial::before{
+            content: " (Link) ";
+            color: black;
+        }
+
+        .especial::after{
+            content: " (Link) ";
+            color: black;
+        }
+
+        .especial{
+            background-color: rgb(156, 156, 245);
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/">Repositório do Zucula</a></li>
+        <li class="especial"><a href="https://www.facebook.com/"> Facebook do Zucula</a> </li>
+        <li class="especial"><a href="https://www.premierbet.co.ao/">Casa de aposta do Zucula</a></li>
+    </ul>
+</body>
+</html>

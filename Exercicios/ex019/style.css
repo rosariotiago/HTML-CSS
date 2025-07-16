@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* em html é id = em css é # ( código uniforme)
+em html é class = em css é . ( código variante) */
+
+body{
+    background-color: #83f1a3;
+}
+
+h1{
+    color: rgb#21E612
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color: #165f43
+}
+
+p{
+    text-align: justify;
+}
+
+.básico{
+    color:#5f1616 ;
+}
+
+.intermediário{
+    color: #17165fa1;
+}
+
+.avançado{
+    color: #5a5f16;
+}
+
+.destaque{
+    background-color: rgba(206, 206, 16, 0.582);
+}
