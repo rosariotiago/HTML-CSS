@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            display: block;
+            margin: auto;
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: aquamarine;
+            transition-duration: 0.4s;
+            text-decoration: underline;
+            padding: 5px;
+            border-radius: 6px;
+        }
+
+        ul > li {
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim accusamus, aspernatur totam beatae quod nisi officia. Labore magni, beatae, libero suscipit corporis eveniet possimus facilis quisquam iusto alias laborum esse!</p>
+    <ul>
+        <li><a href="paginas-exerício/pag001.html" target="frame">pagina001</a></li>
+        <li><a href="paginas-exerício/pag002.html" target="frame">pagina002</a></li>
+        <li><a href="paginas-exerício/pag003.html" target="frame">pagina003</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo ad ea corporis, cupiditate atque qui blanditiis quas omnis nam aspernatur facere ducimus eligendi optio ipsa odit voluptatum doloribus. Ad. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste eaque, dolorum, reiciendis reprehenderit recusandae nisi molestiae illum ipsam asperiores dolores itaque facere magni voluptatum ratione at ab aliquam laboriosam nobis!</p>
+    <iframe id="tela" name="frame" srcdoc="<h1>escolha uma das opções de Links acima</h1><img src='imagens/foto-p.PNG'><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maxime magni, inventore illum ab praesentium dignissimos. Libero ipsum odio voluptate laboriosam, dolorum culpa ratione? Voluptas facilis facere accusamus harum possimus!</p>"></iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nisi consectetur. Accusamus cumque eveniet beatae obcaecati vel saepe nemo delectus dolor nihil, earum assumenda nesciunt sunt possimus sint recusandae iste.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam maxime magni, inventore illum ab praesentium dignissimos. Libero ipsum odio voluptate laboriosam, dolorum culpa ratione? Voluptas facilis facere accusamus harum possimus!</p>
+</body>
+</html>
