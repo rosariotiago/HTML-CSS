@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testando Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iUsuário">Usuário</label> 
+            <input type="text" name="Usuário" id="iUsuário" required minlength="5" maxlength="16" placeholder="digite Nome de usuário">
+        </p>
+        <p>
+            <label for="iCódigo">Código</label> 
+            <input type="password" name="Código" id="iCódigo" required minlength="6" placeholder="digite Senha">
+        </p>
+        <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
